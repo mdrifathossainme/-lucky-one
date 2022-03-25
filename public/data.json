@@ -1,0 +1,75 @@
+[
+    {
+      "id": "1",
+      "name": "I phone 8",
+      "price": 450,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-8-space-gray.png"
+    },
+    {
+      "id": "2",
+      "name": "I phone 10",
+      "price": 550,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-x-space-gray.png"
+    },
+    {
+      "id": "3",
+      "name": "I phone xr",
+      "price": 510,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-xr-red.png"
+    },
+    {
+      "id": "4",
+      "name": "I phone 11",
+      "price": 650,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-11-black.png"
+    },
+    {
+      "id": "5",
+      "name": "I phone xs",
+      "price": 620,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-xs-gold.png"
+    },
+    {
+      "id": "6",
+      "name": "I phone 12",
+      "price": 750,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-11-pro-space-gray.png"
+    },
+    {
+      "id": "7",
+      "name": "I phone 13",
+      "price": 950,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-11-pro-gold.png"
+    },
+    {
+      "id": "8",
+      "name": "I phone 12 pro",
+      "price": 860,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-11-pro-silver.png"
+    },
+    {
+      "id": "9",
+      "name": "I phone 11 pro",
+      "price": 720,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-11-green.png"
+    },
+    {
+      "id": "10",
+      "name": "I phone 11 pro",
+      "price": 670,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-11-yellow.png"
+    },
+    {
+      "id": "11",
+      "name": "I phone Xs Max",
+      "price": 850,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-xs-silver.png"
+    },
+    {
+      "id": "12",
+      "name": "I phone 7 ",
+      "price": 139,
+      "img": "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,dpr=2,fit=contain,format=auto/swappie-iphone-7-gold.png"
+    }
+  ]
+  
