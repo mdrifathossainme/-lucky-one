@@ -3,3 +3,11 @@ body{
   background: #1f2641;
   color: aliceblue;
 }
+.question{
+  margin: 0 50px;
+}
+@media only screen and (max-width: 600px){
+  .question{
+    margin: 0 15px;
+  }
+}
