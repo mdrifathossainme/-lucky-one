@@ -31,7 +31,7 @@ const Shop = () => {
         setProductsDetails(newCart)
     }  
     else{
-      alert('You Pick only 3 product')
+      alert('You Pick only 4 product')
     }   
       }
       const removedCart=()=>{
@@ -48,7 +48,7 @@ const Shop = () => {
    
       const choose=()=>{
         if(productsDetails.length===0){
-          alert('Please pick your  product')
+          alert('Please select a product')
         }
        else{
         let index = getRandomNumber(0, productsDetails.length-1);
