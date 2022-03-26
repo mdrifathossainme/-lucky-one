@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = ({item}) => {
-    const{name, img,id}=item
+    const{name, img,}=item
     return (
         <div>
         <div className="detailes">

@@ -13,13 +13,24 @@ const Shop = () => {
         .then(data=>setProducts(data))
 
     },[])
-    const addToCart=allProducts=>{
-      const newProduct=[...productsDetails,allProducts]
-      if(newProduct.length>=5){
-        
+
+
+    const addToCart=allProducts=>{  
+    let newCart=[]
+    if(productsDetails.length<=2){
+      const exities=productsDetails.find(product=>product.id===allProducts.id)
+      if(!exities){
+        newCart=[...productsDetails,allProducts]    
       }
-      setProductsDetails(newProduct)
-    }
+      else{
+        alert('Already Add')
+      }
+        setProductsDetails(newCart)
+    }  
+    else{
+      alert('You Pick only 3 product')
+    }   
+      }
     return (
         <div className='container'>
           <div className="product-box">
@@ -32,10 +43,11 @@ const Shop = () => {
             <h1>Pick Your Product</h1>
             {
                  productsDetails.map((item)=>(
-                  <h1><Cart item={item}></Cart></h1>
+                  <h1><Cart item={item}key={item.id}></Cart></h1>
                 ))}
-              <button className='cart-btn'>CHOOSE 1 FOR ME</button><br />
+              <button className='cart-btn' >CHOOSE 1 FOR ME</button><br />
               <button className='cart-btn'>CHOOSE AGAIN</button>
+              
             </div>
           </div>
         </div>
