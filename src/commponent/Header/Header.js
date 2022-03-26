@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className='header'>
             <h1>Pick your product !</h1>
-            <h4>Pick only 5 product</h4>
+            <h4>Pick only 3 product</h4>
 
        </div>
     );
