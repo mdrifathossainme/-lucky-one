@@ -30,6 +30,10 @@
     border: 1px solid #fff;
     font-weight: 500;
     cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.cart-btn:hover{
+    background: #f75842;
 }
 @media only screen and (max-width: 600px) {
     .container{
